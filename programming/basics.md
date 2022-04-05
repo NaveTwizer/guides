@@ -30,7 +30,7 @@ This guide will teach you basics of programming.
 
 ### 1.1.1. What is programming?
 
-Programming is the instruction to a computer on how to perform a particular task.
+Programming is developing instructions for a computer to perform a particular task / program.
 
 ### 1.1.2. What are types of programming
 
@@ -61,7 +61,7 @@ Shortly and commonly known as docs, these are text that describe the program. Th
 
 ### 1.2.2. Library
 
-Reusable program that a user can utilize. These are common solutions to problems
+A library is a program someone else wrote, which allows us to import that program into our program, basically giving our program "super powers".
 
 ### 1.2.3. Comment
 
@@ -88,7 +88,7 @@ In most programming languages these are represented as follows
 
 ### 1.2.6. Variable
 
-A variable is used to store data inside a program. The value of a variable is the data it has stored and the identifier or the name is how the program and the programmer recognizes it. The value of a variable can be changed by the programmer using his program.
+A variable is used to store data inside a program. The value of a variable is the data it has stored and the identifier or the name is how the program and the programmer recognizes it. The value of a variable can be changed by the programmer using his program, unless this variable is declared as a constant variable (explained next chapter).
 
 The identifier or name of a variable does not change inside a program.
 
@@ -107,21 +107,28 @@ Typical Basic Data Types:
 | :-------: | :------------------------------------------------: | :--------------------------: |
 |  Number   |               A numerical data type                |        6, 9, 1.2, -2         |
 |  String   |                A set of characters                 | "Hello", "6 boxes", "9", "*" |
-|  Boolean  |                Either true or false                |      true, false, 0, 1       |
-| undefined | Anything that hasn't been given a assigned a value |          undefined           |
-|   null    |            Anything not having a value             |             null             |
+|  Boolean  |                Either true or false                |      true, false, 0, 1       
+|
+| undefined |           Anything that hasn't been given a value  |          undefined           
+|
+|   null    |            As the name says, a null value.         |             null             
 
 Some languages use null as a replacement to undefined, But I did not mention that this is the case for all programming languages and was just a general representation of data types.
 
+
 ### 1.2.9. Functions
 
-Functions are reusable pieces of program. They are used to modularize the program.
+Functions are reusable pieces of code. They are used to modularize the program / perform a specific task.
 
 These can have arguments (aka parameters) that can be passed to these from where they are being called.
 
 When we call a function it evaluates.
 
-A function can return some data or may not.
+A function may or may not return some data.
+For example - a function that recieves 2 parameters as arguments and returns the average: a function that returns a value.
+
+Function that does not return a value:
+a function that recieves 2 parameters as arguments and displays the average somewhere - but does NOT return any value. 
 
 ### 1.2.10. Argument
 
@@ -130,6 +137,19 @@ This is the information passed to a function, It is also known as parameter.
 ### 1.2.11. Operators
 
 Operators perform operations on variables.
+List of operators:
+|   Operator       |                    Description                         |           Examples           |
+| :-------:        | :------------------------------------------------:     | :--------------------------: |
+|     +            |               Operation for addition                   |         1+2, 3 + 5
+|
+|     -            |            Operation for subtraction                   | 3 - 2, 6 - 1, -5 - 3 
+|
+|     %            |returns the remainder or signed remainder of a division | 6 % 3 = 0, 5 % 2 = 1, 18% 4 = 2 
+|
+|     /            |           Operator for division                        | 6 / 6 = 1, 4 / 2 =      
+|
+|    null          |            As the name says, a null value.                    |             null  
+
 
 ### 1.2.12. Arrays
 
